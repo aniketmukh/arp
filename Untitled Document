@@ -1,0 +1,63 @@
+
+cd Desktop/Project/ryu
+--------ryu-manager ./ryu/app/simple_switch_13.py
+--------ryu-manager ./ryu/app/simple_monitor_13.py
+--------ryu-manager ./ryu/app/edited_simple_monitor_13.py
+ryu-manager ./ryu/app/edited_simple_switch_13.py
+bhah@ubuntu:~/Desktop/Project/ryu$ ryu-manager ./ryu/app/edited_simple_switch_13.py
+
+
+
+cd Desktop/Project/mininet/custom
+--------sudo mn --custom testtopob.py --topo topob --controller remote
+--------sudo mn --custom testtopob2.py --topo topob2 --controller remote
+sudo python testtopob2.py
+
+
+
+xterm h1
+sudo python testtrafficb.py
+sudo python testattackb.py 10.0.0.8
+
+
+
+sudo nautilus
+to open edited simple monitor:  cd Desktop/Project/ryu/ryu/app
+to open traffic files:          cd Desktop/Project/mininet/custom
+
+
+
+
+
+
+
+
+
+        #print(type(s))
+        #if ip:
+        #   v = ip.dst
+        #   print("Hi Bhavya"+ str(v))
+        #   print(pkt)
+        
+        #elist= []
+        #if ip:
+           #print(pkt)
+           #v = ip.dst
+           #print(v)
+           #elist.append(str(v))
+           #print(elist)
+        #v=0
+        #i=0
+        #for i in range(0,5):
+           #if ip:
+             # v = ip.dst
+             # elist.append(str(v))
+           ##hub.sleep(0.5)
+             # print("bhavya list"+ str(elist))
+             # break
+        
+        #if ip.dst == 10.0.0.8:
+                 #traffic_count= traffic_count+1
+                 #print("traffic_count=" + str(traffic_count))
+
+        
